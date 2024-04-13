@@ -1,8 +1,11 @@
-// exemplo de variáveis numéricas
-let x = 5;
-let y = 10;
-console.log(x+y);
-//  exemplo com strings
-let texto = 'bem vindo ao javascript ';
-let nome = 'fulano';
-console.log(texto+nome);
+function onClick(evento){
+    console.log(evento);
+    evento.srcElement.innerHTML = 'Este botão foi clicado';
+    
+    const paragrafo  = document.querySelector('p');
+    paragrafo.innerText = 'Este texto foi gerado após o clique do botão';
+
+}
+const button  = document.querySelector('button');
+button.addEventListener('click',onClick);
+
