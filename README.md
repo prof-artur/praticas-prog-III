@@ -1,2 +1,2 @@
 # praticas programação III
-Códigos utilizados nas aulas de programação III
+Código utilizado na aula 1: Hello world em javascript
